@@ -1,0 +1,21 @@
+{
+  "name": "diincompany/yii2-customer-session",
+  "description": "Reusable customer OIDC session component for Yii2 applications",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=7.4",
+    "yiisoft/yii2": "~2.0.45",
+    "guzzlehttp/guzzle": "^7.0 || ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "diincompany\\customersession\\": "src/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
+}
